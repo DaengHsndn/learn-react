@@ -54,7 +54,7 @@ onChatEnter = e => {
             key={chat.id}
             name={chat.displayName}
             imgUrl={chat.profilePicUrl}
-            text={chat.message}f
+            text={chat.message}
             timestamp={chat.relativeTimestamp}
             absoluteTimestamp={chat.absoluteTimestamp}
             isSelf={this.props.loggedInUsername === chat.username}
